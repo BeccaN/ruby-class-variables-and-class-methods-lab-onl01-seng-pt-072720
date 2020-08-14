@@ -33,8 +33,8 @@ class Song
       if genre_hash.has_key?(genre)
         genre.value += 1 
       else
-        genre_hash
-  
+        genre_hash[genre] = 1 
+      end
   end 
   
 end   
